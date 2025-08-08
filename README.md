@@ -46,12 +46,12 @@
 #### 1. Exponential Distribution
 
 **Plan:**
-- Use a **biased QGB**, replacing the Hadamard gate with an **Rx(θ)** to simulate a biased coin.
+- Use a **biased QGB**, replacing the Hadamard gate with an **Rx(theta)** to simulate a biased coin.
 - Add **reset gates** after each peg/stage to control interference.
 - Add a **final correcting CNOT** to remove unwanted correlations.
 
 **Key Challenge:**
-- Tuning θ (rotation angle) and λ (decay rate) to match an ideal exponential curve.
+- Tuning theta (rotation angle) and lambda (decay rate) to match an ideal exponential curve.
 - Multiple iterations were run with different parameters until the histogram resembled an exponential distribution.
 
 #### 2. Quantum Walk Distribution
@@ -65,7 +65,7 @@
 
 ### Issues Faced
 
-- **Parameter Finding**: Small changes in θ or λ caused large differences in results.
+- **Parameter Finding**: Small changes in theta or lambda caused large differences in results.
 - **Circuit Visualization**: As `n` increases, circuit complexity grows. This made debugging difficult via the Qiskit Circuit Drawer.
 - **Distribution Accuracy**: Some runs showed noise or distortions, requiring fine-tuned parameters and high shot counts.
 
