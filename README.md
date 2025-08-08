@@ -23,7 +23,7 @@
 
 ### Task 2 – Moderately Generalising Gaussian Distribution from n Levels
 
-- We began by implementing a basic **2-level QGB** (Quantum Galton Board). We created 2 versions, one based on the paper summarised in Task 1 (identifiable with SWAP gates implemented), and one based on what we knew about quantum computation & probabilities previously (without SWAP gates).
+- We began by implementing a basic **2-level QGB** (Quantum Galton Board). We created 2 versions for each task, one based on the paper summarised in Task 1 (identifiable with SWAP gates implemented), and one based on what we knew about quantum computation & probabilities previously (without SWAP gates).
 
 **How it works:**
 - A coin(or ball) qubit determines the walker's movement (left or right).
