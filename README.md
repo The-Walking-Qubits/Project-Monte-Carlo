@@ -5,6 +5,8 @@
 ### Members:
 1. **Name**: Ashna Yadav  
    **WISER Enrollment ID**: gst-G2T7G514NBhDM97
+2. **Name**: Sayed Parsa Gharavi Neisiani
+   **WISER Enrollment ID**: gst-nd40bHA4EghH4n6
 
 ---
 
@@ -23,7 +25,7 @@
 
 ### Task 2 – Moderately Generalising Gaussian Distribution from n Levels
 
-- We began by implementing a basic **2-level QGB** (Quantum Galton Board).
+- We began by implementing a basic **2-level QGB** (Quantum Galton Board). We created 2 versions, one based on the paper summarised in Task 1 (identifiable with SWAP gates implemented), and one based on what we knew about quantum computation & probabilities previously (without SWAP gates).
 
 **How it works:**
 - A coin(or ball) qubit determines the walker's movement (left or right).
@@ -46,7 +48,7 @@
 #### 1. Exponential Distribution
 
 **Plan:**
-- Use a **biased QGB**, replacing the Hadamard gate with an **Rx(theta)** to simulate a biased coin.
+- Use a **biased/fine-grained QGB**, replacing the Hadamard gate with an **Rx(theta)** or **Ry(theta)** to simulate a biased coin.
 - Add **reset gates** after each peg/stage to control interference.
 - Add a **final correcting CNOT** to remove unwanted correlations.
 
@@ -65,7 +67,7 @@
 
 ### Issues Faced
 
-- **Parameter Finding**: Small changes in theta or lambda caused large differences in results.
+- **Parameter Finding**: Small changes in theta or lambda caused large differences in results and variance from expected outcomes.
 - **Circuit Visualization**: As `n` increases, circuit complexity grows. This made debugging difficult via the Qiskit Circuit Drawer.
 - **Distribution Accuracy**: Some runs showed noise or distortions, requiring fine-tuned parameters and high shot counts.
 
