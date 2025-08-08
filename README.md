@@ -3,10 +3,8 @@
 ## Team Name: The Walking Qubits
 
 ### Members:
-1. **Name**: Ashna Yadav  
-   **WISER Enrollment ID**: gst-G2T7G514NBhDM97
-2. **Name**: Sayed Parsa Gharavi Neisiani
-   **WISER Enrollment ID**: gst-nd40bHA4EghH4n6
+1. **Name**: Ashna Yadav    |   **WISER Enrollment ID**: gst-G2T7G514NBhDM97
+2. **Name**: Sayed Parsa Gharavi Neisiani   |   **WISER Enrollment ID**: gst-nd40bHA4EghH4n6
 
 ---
 
