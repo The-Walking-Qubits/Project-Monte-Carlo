@@ -5,6 +5,7 @@
 ### Members:
 1. **Name**: Ashna Yadav    |   **WISER Enrollment ID**: gst-G2T7G514NBhDM97
 2. **Name**: Sayed Parsa Gharavi Neisiani   |   **WISER Enrollment ID**: gst-nd40bHA4EghH4n6
+3. **Name**: Nandita B   |   **WISER Enrollment ID**: gst-lz6cPFd0DJL9WtM
 
 ---
 
@@ -99,5 +100,6 @@ Our Task 3 approach is fundamentally different:
 ---
 
 ###  Project Presentation Deck
+[The Walking Qubits.pptx](https://github.com/user-attachments/files/21696915/The.Walking.Qubits.pptx)
 
 
