@@ -81,6 +81,23 @@
 
 ---
 
+#### Note: 
+Another approach was used here to solve Task 2 and Task 3 — this method is not mentioned in the original paper, making it an additional contribution to the implementation.
+
+In our Task 2 implementation, we use a simpler, more direct design:
+
+- The peg operation is simulated with Hadamard + CNOT gates instead of controlled-SWAPs.
+- The circuit uses fewer qubits (no ancilla recycling) and directly measures the path qubits to determine the final bin.
+- This reduces circuit complexity and depth, making the design easier to run on simulators or near-term hardware.
+
+Our Task 3 approach is fundamentally different:
+
+- We skip the physical peg simulation and instead compute the exact rotation angles (Ry) needed to produce the target exponential (geometric) distribution directly.
+- These angles are applied sequentially, with an ancilla qubit controlling whether the “ball” moves to the next bin or stops.
+- This yields the exponential distribution without multiple controlled-SWAP layers and without the complex ancilla reset/correction logic described in the paper.
+
+---
+
 ###  Project Presentation Deck
 
 
